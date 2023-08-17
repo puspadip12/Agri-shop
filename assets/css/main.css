@@ -9,6 +9,7 @@
   
 }
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300;400&display=swap');
 
 html {
   font-size: 14px;
@@ -1402,9 +1403,10 @@ html, body {
 
 .hero-text h1 {
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.3;
-  font-family: 'Bricolage Grotesque', sans-serif;
+  /* font-family: 'Bricolage Grotesque', sans-serif; */
+  font-family: 'Averia Sans Libre', cursive;
   color: var(--white);
 }
 .hero-text p.subtitle {
