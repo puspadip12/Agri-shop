@@ -1472,34 +1472,18 @@ input[type="submit"] {
 
 .homepage-bg-1 {
   background-image: url(../img/bg1.jpeg);
-  background-size: 110% 110%;
-  background-position: center center;
-  animation: shrink 5s infinite linear;
 }
 
 
 .homepage-bg-2 {
   background-image: url(../img/herobg1.jpeg);
-  background-size: 110% 110%;
-  background-position: center center;
-  animation: shrink 5s infinite linear;
 }
 
 .homepage-bg-3 {
   background-image: url(../img/herobg3.jpeg);
-  background-size: 100% 100%;
-  background-position: center center;
-  animation: shrink 5s infinite linear;
 }
-@keyframes shrink {
-  0% {
-    background-size: 100% 100%;
-  }
- 
-  100% {
-    background-size: 110% 110%;
-  }
-}
+
+
 
 .homepage-slider {
   height: 100%;
