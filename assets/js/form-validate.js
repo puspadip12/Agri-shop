@@ -19,24 +19,24 @@ function valid_datas( f ){
 		 jQuery.ajax({
 			url: 'mail.php',
 			type: 'post',
-			data: jQuery('form#fruitkha-contact').serialize(),
+			data: jQuery('form#agri-contact').serialize(),
 			complete: function(data) {
 				jQuery('#form_status').html(data.responseText);
-				jQuery('#fruitkha-contact').find('input,textarea').attr({value:''});
-				jQuery('#fruitkha-contact').css({opacity:1});
-				jQuery('#fruitkha-contact').remove();
+				jQuery('#agri-contact').find('input,textarea').attr({value:''});
+				jQuery('#agri-contact').css({opacity:1});
+				jQuery('#agri-contact').remove();
 			}
 		});
 		jQuery('#form_status').html('<span class="loading">Sending your message...</span>');
-		jQuery('#fruitkha-contact').animate({opacity:0.3});
-		jQuery('#fruitkha-contact').find('input,textarea,button').css('border','none').attr({'disabled':''});
+		jQuery('#agri-contact').animate({opacity:0.3});
+		jQuery('#agri-contact').find('input,textarea,button').css('border','none').attr({'disabled':''});
 	}
 	
 	return false;
 }
 
 function notice( f ){
-	jQuery('#fruitkha-contact').find('input,textarea').css('border','none');
+	jQuery('#agri-contact').find('input,textarea').css('border','none');
 	f.style.border = '1px solid red';
 	f.focus();
 }
