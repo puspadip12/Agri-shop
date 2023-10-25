@@ -102,6 +102,11 @@
         // isotop inner
         $(".product-lists").isotope();
 
+        //check out
+        $(".checkout").click(function(){
+            $(this).alert("Order Placed");
+          });
+
         // magnific popup
         $('.popup-youtube').magnificPopup({
             disableOn: 700,
