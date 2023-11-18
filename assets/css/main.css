@@ -854,15 +854,6 @@ a.mobile-show {
 # Footer Styles
 
 ----------------------------------------------------------------------------- */
-.single-logo-item img {
-  max-width: 180px;
-  margin: 0 auto;
-}
-
-.logo-carousel-section {
-  background-color: #f5f5f5;
-  padding: 50px 0;
-}
 
 .footer-area {
   background-color: var(--text);
@@ -938,6 +929,8 @@ h2.widget-title:after {
 .copyright {
   background-color: var(--text);
   border-top: 1px solid #232a35;
+  display: flex;
+  justify-content: center;
 }
 
 .copyright p {
@@ -948,51 +941,6 @@ h2.widget-title:after {
   font-size: 15px;
 }
 
-.copyright a {
-  color: var(--main);
-  font-weight: 700;
-}
-
-.copyright a:hover {
-  color: #f59d53;
-}
-
-.social-icons ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.social-icons ul li {
-  display: inline-block;
-}
-
-.social-icons ul li a {
-  font-size: 16px;
-  color: var(--white);
-  opacity: 0.7;
-  padding: 16px 10px;
-  display: block;
-}
-
-.footer-box ul li a {
-  color: var(--white);
-}
-
-.footer-box.pages ul li {
-  position: relative;
-  padding-left: 20px;
-}
-
-.footer-box.pages ul li:before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  content: "\f105";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  color: var(--main);
-}
 
 /* -----------------------------------------------------------------------------
 
@@ -1910,7 +1858,7 @@ span.comment-date {
 }
 
 .cart-banner .cont {
-  background-image: url("../img/product/1banner.webp");
+  background-image: url("../img/product/1banner.png");
   background-size: contain;
   background-repeat: no-repeat;
   margin: 40px;
