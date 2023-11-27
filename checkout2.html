@@ -9,9 +9,8 @@
 		content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>Shop</title>
+	<title>Check Out</title>
 
-	<link rel="stylesheet" href="assets/css/style2.css">
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
 	<!-- google font -->
@@ -21,7 +20,6 @@
 	<link rel="stylesheet" href="assets/css/all.min.css">
 	<!-- bootstrap -->
 	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 	<!-- owl carousel -->
 	<link rel="stylesheet" href="assets/css/owl.carousel.css">
 	<!-- magnific popup -->
@@ -68,11 +66,11 @@
 								<li><a href="about.html">About</a></li>
 								<li><a href="news.html">News</a></li>
 								<li><a href="contact.html">Contact</a></li>
-								<li class="current-list-item"><a href="">Shop</a></li>
+								<li><a href="shop.html">Shop</a></li>
 								<li>
 									<div class="header-icons">
 										<a class="shopping-cart" href="cart2.html"><i
-												class="bi bi-cart3"><div id="cartAmount" class="cartAmount">0</div></i></a>
+												class="fas fa-shopping-cart"></i></a>
 									</div>
 								</li>
 							</ul>
@@ -93,7 +91,7 @@
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="breadcrumb-text">
 						<p>Fresh and Organic</p>
-						<h1>Shop</h1>
+						<h1>Check Out Product</h1>
 					</div>
 				</div>
 			</div>
@@ -101,106 +99,131 @@
 	</div>
 	<!-- end breadcrumb section -->
 
-	<!-- products -->
-	<div class="product-section mt-150 mb-150">
+	<!-- check out section -->
+	<div class="checkout-section mt-150 mb-150">
 		<div class="container">
-
 			<div class="row">
-				<div class="col-md-12">
-					<div class="product-filters">
-						<ul>
-							<li class="active" data-filter="*">All</li>
-							<li data-filter=".seeds">Seeds and Saplings</li>
-							<li data-filter=".fertilizers">Fodders Seeds</li>
-							<li data-filter=".Insecticide">Insecticide</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="products">
-				<div class="shop" id="shop">
-				</div>
-			</div>
-			<div class="row product-lists">
-				<!-- <div class="col-lg-4 col-md-6 text-center seeds"> -->
-					<!-- <div class="single-product-item"> -->
-						
-					<!-- </div> -->
-				<!-- </div> -->
-				<!-- <div class="col-lg-4 col-md-6 text-center seeds">
-					<div class="single-product-item">
-						<div class="product-image">
-							<img src="assets/img/Pro/2.webp" alt="">
+				<div class="col-lg-8">
+					<div class="checkout-accordion-wrap">
+						<div class="accordion" id="accordionExample">
+							<div class="card single-accordion">
+								<div class="card-header" id="headingOne">
+									<h5 class="mb-0">
+										<button class="btn btn-link" type="button" data-toggle="collapse"
+											data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											Billing Address
+										</button>
+									</h5>
+								</div>
+
+								<div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+									data-parent="#accordionExample">
+									<div class="card-body">
+										<div class="billing-address-form">
+											<form action="index.html">
+												<p><input type="text" placeholder="Name"></p>
+												<p><input type="email" placeholder="Email"></p>
+												<p><input type="text" placeholder="Address"></p>
+												<p><input type="tel" placeholder="Phone"></p>
+												<p><textarea name="bill" id="bill" cols="30" rows="10"
+														placeholder="Say Something"></textarea></p>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card single-accordion">
+								<div class="card-header" id="headingTwo">
+									<h5 class="mb-0">
+										<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+											data-target="#collapseTwo" aria-expanded="false"
+											aria-controls="collapseTwo">
+											Shipping Address
+										</button>
+									</h5>
+								</div>
+								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+									data-parent="#accordionExample">
+									<div class="card-body">
+										<div class="shipping-address-form">
+											<p>Your shipping address form is here.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="card single-accordion">
+								<div class="card-header" id="headingThree">
+									<h5 class="mb-0">
+										<button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+											data-target="#collapseThree" aria-expanded="false"
+											aria-controls="collapseThree">
+											Card Details
+										</button>
+									</h5>
+								</div>
+								<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+									data-parent="#accordionExample">
+									<div class="card-body">
+										<div class="card-details">
+											<p>Your card details goes here.</p>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-						<h3>Syngenta Saaho (TO-3215) Tomato Seeds - 3500 SEEDS</h3>
-						<p class="product-price"><span>Rs</span> 950.00 </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 text-center seeds">
-					<div class="single-product-item">
-						<div class="product-image">
-							<img src="assets/img/Pro/3.png" alt=""></a>
-						</div>
-						<h3>Known You Sania Cucumber Seeds - 10 GM</h3>
-						<p class="product-price"><span>Rs</span> 450.00 </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+
+				<div class="col-lg-4">
+					<div class="order-details-wrap">
+						<table class="order-details">
+							<thead>
+								<tr>
+									<th>Your order Details</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody class="order-details-body">
+								<tr>
+									<td>Product</td>
+									<td>Total</td>
+								</tr>
+								<tr>
+									<td>Strawberry</td>
+									<td>$85.00</td>
+								</tr>
+								<tr>
+									<td>Berry</td>
+									<td>$70.00</td>
+								</tr>
+								<tr>
+									<td>Lemon</td>
+									<td>$35.00</td>
+								</tr>
+							</tbody>
+							<tbody class="checkout-details">
+								<tr>
+									<td>Subtotal</td>
+									<td>$190</td>
+								</tr>
+								<tr>
+									<td>Shipping</td>
+									<td>$50</td>
+								</tr>
+								<tr>
+									<td>Total</td>
+									<td>$240</td>
+								</tr>
+							</tbody>
+						</table>
+						<a href="shop.html" onclick="myFunction()" class="boxed-btn">Place Order</a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 text-center seeds">
-					<div class="single-product-item">
-						<div class="product-image">
-							<img src="assets/img/Pro/4.png" alt="">
-						</div>
-						<h3>Multiplex Drumstick - Dwarf Moringa - 20 GM</h3>
-						<p class="product-price"><span>Rs</span> 120.00 </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 text-center seeds">
-					<div class="single-product-item">
-						<div class="product-image">
-							<img src="assets/img/Pro/5.png" alt="">
-						</div>
-						<h3>Seminis Moraleda Beans - 500 GM</h3>
-						<p class="product-price"><span>Rs</span> 900.00 </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 text-center seeds">
-					<div class="single-product-item">
-						<div class="product-image">
-							<img src="assets/img/Pro/6.png" alt="">
-						</div>
-						<h3>Multiplex Drumstick - Dwarf Moringa - 20 GM</h3>
-						<p class="product-price"><span>Rs</span> 120.00 </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 text-center seeds">
-					<div class="single-product-item">
-						<div class="product-image">
-							<img src="assets/img/Pro/7.webp" alt="">
-						</div>
-						<h3>Syngenta Sugar 75 Sweet Corn Seeds - 1 KG</h3>
-						<p class="product-price"><span>Rs</span> 2000.00 </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 text-center seeds">
-					<div class="single-product-item">
-						<div class="product-image">
-							<img src="assets/img/Pro/8.webp" alt="">
-						</div>
-						<h3>VNR Keerthana Brinjal - 10 GM (Pack of 2)</h3>
-						<p class="product-price"><span>Rs</span> 200.00 </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div> -->
 			</div>
 		</div>
 	</div>
-	<!-- end products -->
+	<!-- end check out section -->
 
 
 	<!-- footer -->
@@ -261,6 +284,11 @@
 	</div>
 	<!-- end copyright -->
 
+	<script>
+		function myFunction() {
+			alert("Your Order is placed Successfully!");
+		}
+	</script>
 	<!-- jquery -->
 	<script src="assets/js/jquery-1.11.3.min.js"></script>
 	<!-- bootstrap -->
@@ -281,9 +309,6 @@
 	<script src="assets/js/sticker.js"></script>
 	<!-- main js -->
 	<script src="assets/js/main.js"></script>
-	<script src="assets/js/data.js"></script>
-	<script src="assets/js/shop.js"></script>
-	<!-- <script src="assets/js/cart.js"></script> -->
 
 </body>
 
