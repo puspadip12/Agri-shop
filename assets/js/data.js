@@ -4,7 +4,7 @@ let shopItemsData = [
       name: "Armour F1 Hybrid Chilli Seeds",
       price: 750,
       desc: "Pack of 1500 Seeds",
-      img: "../assets/img/Pro/1.webp",
+      img: "../assets/img/Pro/1.png",
       type: "seeds",
     },
     {
@@ -12,7 +12,7 @@ let shopItemsData = [
       name: "Syngenta Saaho Tomato Seeds ",
       price: 100,
       desc: "3500 SEEDS",
-      img: "../assets/img/Pro/2.webp",
+      img: "../assets/img/Pro/2.png",
       type: "seeds",
     },
     {
@@ -52,7 +52,7 @@ let shopItemsData = [
       name: "Syngenta Sugar 75 Sweet Corn Seeds",
       price: 25,
       desc: "1KG",
-      img: "../assets/img/Pro/7.webp",
+      img: "../assets/img/Pro/7.png",
       type: "seeds",
     },
     {
@@ -60,7 +60,7 @@ let shopItemsData = [
       name: "VNR Keerthana Brinjal",
       price: 300,
       desc: "10 GM (Pack of 2)",
-      img: "../assets/img/Pro/8.webp",
+      img: "../assets/img/Pro/8.png",
       type: "seeds",
     },
   ];
